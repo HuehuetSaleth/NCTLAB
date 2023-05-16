@@ -24,11 +24,8 @@
         font-size: 20px;
         -webkit-text-fill-color: #757575;
         -webkit-text-stroke: 0.7px #dcdcdc;
-        
-        
     }
   
-  /* Estilo del header*/
   header {
     display: flex;
     height: 200px;
@@ -53,16 +50,14 @@
     padding: 0px;
     margin-left: 25%;
     margin-right: 25%;
-    
   }
-  /* Clear floats after the columns */
+  
   section::after {
     content: "";
     display: table;
     clear: both;
   }
-  
-  /* Style the footer */
+
   footer {
     display: flex;
     height: 200px;
@@ -78,8 +73,7 @@
     font-family: monospace;
     color: rgb(20, 17, 17);
   }
-  
-  /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+ 
   @media (max-width: 600px) {
     nav, article {
       width: 100%;
