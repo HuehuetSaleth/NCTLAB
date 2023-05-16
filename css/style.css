@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+  }
+
+  h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: monospace;
+    padding: 16px;
+  }
+  p{
+    text-align:center;
+    font-size: 16px;
+    font-family: monospace;
+  }
+  
+  body {
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('https://0.soompi.io/wp-content/uploads/2023/03/31030109/nct-mark4.jpeg');
+    }
+    body section p{
+        font-size: 20px;
+        -webkit-text-fill-color: #757575;
+        -webkit-text-stroke: 0.7px #dcdcdc;
+        
+        
+    }
+  
+  /* Estilo del header*/
+  header {
+    display: flex;
+    height: 200px;
+    width: auto;
+    margin-top: 20px;
+    padding: 100px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    background-image: url('https://preview.redd.it/mark-nct-golden-hour-sm-station-nct-lab-teaser-images-v0-qn1ap7u9j1ra1.jpg?width=640&crop=smart&auto=webp&s=301def6d2b825daeb8ca64b20057b3e3a62d5b6a');
+    opacity: 0.8;
+    
+    }
+  
+  article {
+    float: left;
+    padding: 10px;
+    width: 100%;
+    background-color: black;
+    }
+  article iframe{
+    padding: 0px;
+    margin-left: 25%;
+    margin-right: 25%;
+    
+  }
+  /* Clear floats after the columns */
+  section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the footer */
+  footer {
+    display: flex;
+    height: 200px;
+    width: auto;
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-image: url('https://preview.redd.it/mark-nct-golden-hour-sm-station-nct-lab-teaser-images-v0-qn1ap7u9j1ra1.jpg?width=640&crop=smart&auto=webp&s=301def6d2b825daeb8ca64b20057b3e3a62d5b6a');
+  }
+  body section ul{
+    font-size: 18px;
+    font-family: monospace;
+    color: rgb(20, 17, 17);
+  }
+  
+  /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+  @media (max-width: 600px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+    }
+  }
